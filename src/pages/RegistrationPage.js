@@ -14,7 +14,7 @@ const RegistrationPage = () => {
       <img
         className={styles.digitalScreenWithEnvironmenIcon}
         alt=""
-        src="../digitalscreenwithenvironmentday-1@2x.png"
+        src="https://www.ymparisto.fi/download/digitalscreenwithenvironmentday556jpg/%7B22776F94-D824-4D85-9305-3A194C22DB14%7D/171432"
       />
       <div className={styles.welcomeBack}>Welcome back</div>
       <div className={styles.pleaseEnterYour}>Please enter your detail</div>
