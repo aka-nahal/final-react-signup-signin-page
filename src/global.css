@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Calibri:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-calibri: Calibri;
+
+  /* font sizes */
+  --font-size-sm: 15px;
+  --font-size-base: 20px;
+  --font-size-lg: 60px;
+
+  /* Colors */
+  --color-darkolivegreen: #265518;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+
+  /* border radiuses */
+  --br-sm: 20px;
+  --br-md: 30px;
+}

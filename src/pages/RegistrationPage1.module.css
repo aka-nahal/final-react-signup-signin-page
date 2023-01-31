@@ -1,0 +1,125 @@
+.createAccount {
+  position: absolute;
+  top: 195px;
+  left: 918px;
+  font-size: var(--font-size-lg);
+}
+.iconsaxlineargoogle {
+  position: absolute;
+  top: 294px;
+  left: 971px;
+  border-radius: var(--br-md);
+  width: 34px;
+  height: 33px;
+  overflow: hidden;
+}
+.orUseYour {
+  position: absolute;
+  top: 386px;
+  left: 967px;
+}
+.digitalScreenWithEnvironmenIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 773px;
+  height: 1024px;
+  object-fit: cover;
+}
+.signChild,
+.signInner,
+.signItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gainsboro);
+  width: 390px;
+  height: 54px;
+}
+.signInner,
+.signItem {
+  top: 76px;
+}
+.signInner {
+  top: 152px;
+}
+.name {
+  position: absolute;
+  top: 15px;
+  left: 26px;
+}
+.email,
+.password,
+.rectangleDiv {
+  position: absolute;
+  top: 91px;
+  left: 26px;
+}
+.password,
+.rectangleDiv {
+  top: 167px;
+}
+.rectangleDiv {
+  top: 232px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 19px;
+  height: 19px;
+}
+.iAgreeTo {
+  position: absolute;
+  top: 233px;
+  left: 29px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.signChild1,
+.signChild2 {
+  position: absolute;
+  top: 314px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 132px;
+  height: 58px;
+}
+.signChild2 {
+  left: 258px;
+}
+.signUp {
+  top: 331px;
+  left: 34px;
+}
+.sign,
+.signIn,
+.signUp {
+  position: absolute;
+}
+.signIn {
+  top: 331px;
+  left: 296px;
+  cursor: pointer;
+}
+.sign {
+  top: 469px;
+  left: 918px;
+  width: 390px;
+  height: 372px;
+  color: var(--color-black);
+}
+.registrationPage {
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-calibri);
+}
