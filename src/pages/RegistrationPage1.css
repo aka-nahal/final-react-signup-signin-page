@@ -1,0 +1,145 @@
+.create-account {
+  position: absolute;
+  top: 195px;
+  left: 918px;
+}
+.iconsaxlineargoogle {
+  position: absolute;
+  top: 294px;
+  left: 971px;
+  border-radius: var(--br-md);
+  width: 34px;
+  height: 33px;
+  overflow: hidden;
+}
+.or-use-your {
+  position: absolute;
+  top: 386px;
+  left: 967px;
+  font-size: var(--font-size-base);
+}
+.digital-screen-with-environmen-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 773px;
+  height: 1024px;
+  object-fit: cover;
+}
+.rectangle-input {
+  top: 0;
+}
+.rectangle-input,
+.sign-child1,
+.sign-child2 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-md);
+  width: 390px;
+  height: 54px;
+}
+.sign-child1 {
+  top: 76px;
+}
+.sign-child2 {
+  top: 152px;
+}
+.email1 {
+  position: absolute;
+  left: 26px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-calibri);
+  color: var(--color-black);
+  text-align: center;
+}
+.name {
+  top: 15px;
+}
+.name,
+.password1 {
+  position: absolute;
+  left: 26px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-calibri);
+  color: var(--color-black);
+  text-align: center;
+}
+.email1 {
+  top: 91px;
+}
+.password1 {
+  top: 167px;
+}
+.sign-child3 {
+  cursor: pointer;
+  position: absolute;
+  top: 232px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 19px;
+  height: 19px;
+}
+.i-agree-to {
+  position: absolute;
+  top: 233px;
+  left: 29px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-calibri);
+  color: var(--color-white);
+  text-align: center;
+}
+.sign-child4,
+.sign-child5 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 314px;
+  left: 0;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 132px;
+  height: 58px;
+}
+.sign-child5 {
+  left: 258px;
+}
+.sign-in1,
+.sign-up {
+  position: absolute;
+  top: 331px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-calibri);
+  color: var(--color-black);
+  text-align: center;
+}
+.sign-up {
+  left: 34px;
+}
+.sign-in1 {
+  left: 296px;
+  cursor: pointer;
+}
+.sign1 {
+  position: absolute;
+  top: 469px;
+  left: 918px;
+  width: 390px;
+  height: 372px;
+}
+.registration-page1 {
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-calibri);
+}

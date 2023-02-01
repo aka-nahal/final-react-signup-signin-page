@@ -20,16 +20,16 @@ function App() {
   }, [action, pathname]);
 
   useEffect(() => {
-    let title = "";
+    let title = "Login";
     let metaDescription = "";
 
     switch (pathname) {
       case "/":
-        title = "";
+        title = "Login";
         metaDescription = "";
         break;
       case "/registration-page":
-        title = "";
+        title = "Sign Up";
         metaDescription = "";
         break;
     }

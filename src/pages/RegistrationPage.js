@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./RegistrationPage.module.css";
+import "./RegistrationPage.css";
 
 const RegistrationPage = () => {
   const navigate = useNavigate();
@@ -10,28 +10,30 @@ const RegistrationPage = () => {
   }, [navigate]);
 
   return (
-    <div className={styles.registrationPage}>
+    <div className="registration-page">
       <img
-        className={styles.digitalScreenWithEnvironmenIcon}
+        className="digital-screen-with-environmen-icon"
         alt=""
-        src="https://www.ymparisto.fi/download/digitalscreenwithenvironmentday556jpg/%7B22776F94-D824-4D85-9305-3A194C22DB14%7D/171432"
+        src="../digitalscreenwithenvironmentday-1@2x.png"
       />
-      <div className={styles.welcomeBack}>Welcome back</div>
-      <div className={styles.pleaseEnterYour}>Please enter your detail</div>
-      <div className={styles.sign}>
-        <div className={styles.signChild} />
-        <div className={styles.signItem} />
-        <div className={styles.email}>Email</div>
-        <div className={styles.password}>Password</div>
-        <div className={styles.signInner} />
-        <div className={styles.rememberMe}>Remember Me</div>
-        <div className={styles.dontHaveAn} onClick={onDontHaveAnClick}>
+      <div className="welcome-back">Welcome back</div>
+      <div className="please-enter-your">Please enter your detail</div>
+      <form className="sign">
+    
+        <input className="sign-child1" type="text"  />
+        <input className="sign-child2" type="password"  />
+  
+        <div className="email1">Email</div>
+        <div className="password1">Password</div>
+        <input className="sign-child3" type="checkbox" required />
+        <div className="remember-me">Remember Me</div>
+        <div className="dont-have-an" onClick={onDontHaveAnClick}>
           Don’t have an account ? Sign up
         </div>
-        <div className={styles.forgotPassword}>Forgot password</div>
-        <div className={styles.rectangleDiv} />
-        <div className={styles.signIn}>Sign In</div>
-      </div>
+        <div className="forgot-password">Forgot password</div>
+        <button className="rectangle-button" />
+        <div className="sign-in">Sign In</div>
+      </form>
     </div>
   );
 };
